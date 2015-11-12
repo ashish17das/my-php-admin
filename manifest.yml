@@ -3,7 +3,7 @@ applications:
 - name: phpmyadmin
   memory: 128M 
   instances: 1
-  host: phpmyadmin
+  host: my-php-admin
   domain: cfapps.io
   path: .
   buildpack: https://github.com/cloudfoundry/php-buildpack.git
